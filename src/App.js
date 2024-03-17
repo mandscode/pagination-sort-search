@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import DemoNavbar from "./components/Navbars/DemoNavbar";
+import Footer from "./components/Footers/Footer";
+import Index from "./Pages/Index";
+import { AppContext, AppProvider } from "./components/Context/AppContext";
+import { useContext, useEffect, useState } from "react";
 
 function App() {
+  const [a,b] = useState()
+  const {apiData, setApiData } = useContext(AppContext);
+
+  useEffect(() => {
+    b(apiData)
+  },[apiData])
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <DemoNavbar/>
+      <Index filteredData={a}/>
+      <Footer/>
+    </>
   );
 }
 

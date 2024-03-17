@@ -1,0 +1,162 @@
+$_footer_title_light_color: #fff;
+$_footer_title_soft_color: #fff;
+$_footer_title_dark_color: #000;
+$_footer_title_deep_color: #000;
+$_footer_title_highlighted_color: #000;
+
+$_footer_title_hover_color: #000;
+
+
+$_footer_sub-title_light_color: #fff;
+$_footer_sub-title_soft_color: rgb(187, 198, 206);
+$_footer_sub-title_dark_color: #000;
+$_footer_sub-title_deep_color: #000;
+$_footer_sub-title_highlighted_color: #000;
+
+$_footer_sub-title_hover_color: #000;
+
+
+$_footer_typo_light_color: rgb(187, 198, 206);
+$_footer_typo_soft_color: '';
+$_footer_typo_dark_color: rgb(115, 130, 140);
+$_footer_typo_deep_color: #000;
+$_footer_typo_highlighted_color: #000;
+
+$_footer_typo_hover_color: #000;
+
+
+$_footer_link_light_color: '';
+$_footer_link_soft_color: #fff;
+$_footer_link_dark_color: rgb(89, 107, 120);
+$_footer_link_deep_color: #000;
+$_footer_link_highlighted_color: rgb(16, 149, 193);
+
+$_footer_link_hover_color: rgb(89, 107, 121);
+$_footer_link_highlighted_hover_color: rgb(26, 179, 230);
+
+
+$_footer_input-label_light_color: #fff;
+$_footer_input-label_soft_color: #fff;
+$_footer_input-label_dark_color: #040404;
+$_footer_input-label_deep_color: #000; 
+
+$_footer_input-label_highlighted_color: #45b664;
+
+$_footer_input-label_hover_color: #000;
+
+
+$_footer_input-title_light_color: #fff;
+$_footer_input-title_soft_color: #fff;
+$_footer_input-title_dark_color: #040404;
+$_footer_input-title_deep_color: #000;
+$_footer_input-title_highlighted_color: #000;
+
+$_footer_input-title_hover_color: #000;
+
+
+$_footer_input-place_light_color: #fff;
+$_footer_input-place_soft_color: #fff;
+$_footer_input-place_dark_color: #000;
+$_footer_input-place_deep_color: #000;
+$_footer_input-place_highlighted_color: #000;
+
+$_footer_input-place_hover_color: #000;
+
+
+$_footer_input_light_border: #fff;
+$_footer_input_soft_border: #fff;
+$_footer_input_dark_border: #c4c4c4;
+$_footer_input_deep_border: #dcdfe5;
+$_footer_input_highlighted_border: #000;
+
+$_footer_input_hover_border: #000;
+
+
+$_footer_input_light_bg: #fff;
+$_footer_input_soft_bg: #fff;
+$_footer_input_dark_bg: #000000;
+$_footer_input_deep_bg: #000;
+$_footer_input_highlighted_bg: #000;
+
+$_footer_input_hover_bg: #dcdfe5;
+
+
+
+
+$_footer_btn_light_bg: #fff;
+$_footer_btn_soft_bg: "";
+$_footer_btn_dark_bg: #08C9AD;
+$_footer_btn_deep_bg: #000;
+$_footer_btn_highlighted_bg: #000;
+
+$_footer_btn_hover_bg: #2AAA8A;
+
+
+
+$_footer_btn_light_color: #fff;
+$_footer_btn_soft_color: #fff;
+$_footer_btn_dark_color: #08C9AD;
+$_footer_btn_deep_color: #000;
+$_footer_btn_highlighted_color: #000;
+
+$_footer_btn_hover_color: #ffffff;
+
+
+$_footer_btn_light_border: #fff;
+$_footer_btn_soft_border: #fff;
+$_footer_btn_dark_border: #08C9AD;
+$_footer_btn_deep_border: #000;
+$_footer_btn_highlighted_border: #000;
+
+$_footer_btn_hover_border: #2AAA8A;
+
+
+$_footer_container_light_bg: #fff;
+$_footer_container_soft_bg: #fff;
+$_footer_container_dark_bg: #000;
+$_footer_container_deep_bg: #000;
+$_footer_container_highlighted_bg: #000;
+
+$_footer_container_hover_bg: #000;
+
+
+$_footer_content_light_bg: #fff;
+$_footer_content_soft_bg: #fff;
+$_footer_content_dark_bg: #000;
+$_footer_content_deep_bg: #000;
+$_footer_content_highlighted_bg: #000;
+
+$_footer_content_hover_bg: #000;
+
+
+$_footer_border_light_bg: #fff;
+$_footer_border_soft_bg: #fff;
+$_footer_border_dark_bg: #000;
+$_footer_border_deep_bg: #000;
+$_footer_border_highlighted_bg: #000;
+
+$_footer_border_hover_bg: #000;
+
+
+$_footer_error_danger_color:#F46036;
+$_footer_error_success_color: #45B664;
+$_footer_error_success_border:  rgba(8, 201, 173, 1);
+$_footer_error_danger_border:rgba(244, 96, 54, 0.4);
+
+$_footer_mandotory: #EB5081;
+
+
+// box-shadow bg
+$_footer_box_shadow_strong: rgba(0, 0, 0, 0.7);
+$_footer_box_shadow_success: 2px 2px 4px 0px rgba(8, 201, 173, 0.4);
+$_footer_box_shadow_danger: 2px 2px 4px 0px #c4c4c4;
+$_footer_box_shadow_error_danger: 2px 2px 4px 0px rgba(244, 96, 54, 0.4);
+$_footer_box_shadow_90: rgba(0, 0, 0, 0.7);
+$_footer_box_shadow_80: rgba(0, 0, 0, 0.7);
+$_footer_box_shadow_70: rgba(0, 0, 0, 0.7);
+$_footer_box_shadow_60: rgba(0, 0, 0, 0.6);
+$_footer_box_shadow_50: rgba(0, 0, 0, 0.5);
+$_footer_box_shadow_40: rgba(0, 0, 0, 0.4);
+$_footer_box_shadow_30: rgba(0, 0, 0, 0.3);
+$_footer_box_shadow_20: rgba(0, 0, 0, 0.2);
+$_footer_box_shadow_10: rgba(0, 0, 0, 0.1);

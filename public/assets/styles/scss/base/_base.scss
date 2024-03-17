@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: $Arial;
+    font-size: $_typo_h2;
+    color: $body-dark-color;
+    line-height: $_typo_h2_line;
+    background-color: $body-dark;
+    font-feature-settings: "lnum", "pnum";
+    
+    &[page="colors"] {
+        background-color: $body-light;
+    }
+}
+
+._container_block {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+._container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 129rem;
+    
+    @include for-wide {
+        padding: 0 6rem;
+        max-width: 117rem;
+    }
+    
+    @include for-tablet {
+        padding: 0 2rem;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

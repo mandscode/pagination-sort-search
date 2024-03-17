@@ -1,0 +1,52 @@
+._navbar {
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    backdrop-filter: blur(4px);
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 1, 28, 0.5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+    &_wrapper {
+        display: flex;
+        padding-top: 2.3rem;
+        padding-bottom: 2.3rem;
+        justify-content: space-between;
+    }
+
+    &_brand {
+        a {
+            display: flex;
+        }
+
+        svg {
+            height: 6.5rem;
+
+            @include for-laptop {
+                height: 4rem;
+            }
+        }
+
+        path {
+            fill: #2867CE;
+        }
+    }
+
+    &_items {
+        gap: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include for-xs {
+            display: grid;
+            justify-content: center;
+
+            button {
+                margin: 0 auto;
+            }
+        }
+    }
+}
